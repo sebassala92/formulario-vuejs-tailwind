@@ -3,7 +3,6 @@
     import router from '../router';
 
     function siguiente(){
-        console.log('texto', info)
         router.push('form2')
     }
 </script>
