@@ -1,9 +1,8 @@
 <script>
-    import { ref } from 'vue';
     import router from '../router';
 
     function siguiente(){
-        router.push('form2')
+        router.push('form1')
     }
 </script>
 

@@ -20,11 +20,12 @@
 
 <template>
     <div class="container mx-auto">
-        <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Numero de Documento</label>
-        <input v-model="info_3.num_documento" type="text" id="large-input" class="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-       
-        <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Foto Delantera Documento</label>
-        <input v-model="info_3.foto_doc_frente" type="text" id="large-input" class="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Dirección Residencial</label>
+        <input v-model="info_3.direccion" type="text" id="direccion" class="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        
+        <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Codigo Postal</label>
+        <input v-model="info_3.codigo_postal" type="num" id="codigo_postal" class="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+
     </div>
 
     <div class="flex mb-4">        
